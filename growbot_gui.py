@@ -209,8 +209,12 @@ def run_bot():
                     if not running:
                         break
                     execute(recordings[idx])
-                    time.sleep(0.5) 
-        messagebox.showinfo("Done", "Loop selesai!")
+                    time.sleep(0.5)
+        # Jangan tampilkan messagebox jika dihentikan oleh SPACE
+        if running:
+            messagebox.showinfo("Done", "Loop selesai!")
+        else:
+            root.title("Growtopia AutoFarm Recorder [STOPPED by SPACE]")
 
     threading.Thread(target=loop_all).start()
 def clear_recordings():
@@ -378,10 +382,9 @@ def normalize_point(point, from_size, to_size):
 # Perbaiki: stop_bot() harus bisa menghentikan thread loop_all
 def on_space_press(event):
     stop_bot()
-    # Jangan tampilkan messagebox di thread utama saat loop berjalan, cukup update judul window
+    # Update judul window agar user tahu bot sudah dihentikan
     root.title("Growtopia AutoFarm Recorder [STOPPED by SPACE]")
 
 root.bind_all('<Key-space>', on_space_press)
 
 root.mainloop()
- 

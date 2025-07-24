@@ -1,0 +1,10 @@
+[2025-07-24 13:48:53] [WATCHER] Memulai pemantauan folder: .
+[2025-07-24 13:49:42] Perubahan terdeteksi pada: C:\laragon\www\2025\Python\GrowBot\.\growbot_gui.py
+[2025-07-24 13:49:42] Memulai build: growbot_gui.py
+[2025-07-24 13:49:53] Build GAGAL: Command '['pyinstaller', '--onefile', '--noconfirm', '--windowed', 'growbot_gui.py']' returned non-zero exit status 1.
+[2025-07-24 13:49:54] Perubahan terdeteksi pada: C:\laragon\www\2025\Python\GrowBot\.\growbot_gui.py
+[2025-07-24 13:49:54] Memulai build: growbot_gui.py
+[2025-07-24 13:49:54] Build GAGAL: Command '['pyinstaller', '--onefile', '--noconfirm', '--windowed', 'growbot_gui.py']' returned non-zero exit status 1.
+[2025-07-24 13:52:25] Perubahan terdeteksi pada: C:\laragon\www\2025\Python\GrowBot\.\autobuild.py
+[2025-07-24 13:52:25] Memulai build: growbot_gui.py
+[2025-07-24 13:52:26] Selesai build: growbot_gui.py

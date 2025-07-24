@@ -39,7 +39,7 @@ Aplikasi GUI Python modern untuk merekam dan menjalankan aksi mouse/keyboard oto
 - `_current_record.json` : Menyimpan record yang sedang aktif.
 
 ## 📝 Catatan
-- Masih dalam developing
 - Pastikan resolusi layar tidak berubah drastis antara merekam dan menjalankan bot.
 - Jika mouse tidak bisa direkam, coba jalankan aplikasi sebagai administrator.
 - UI sudah full CustomTkinter, tidak ada sisa Tkinter.
+- Untuk build ke .exe otomatis, gunakan `autobuild.py` (lihat log di `build.log`).
