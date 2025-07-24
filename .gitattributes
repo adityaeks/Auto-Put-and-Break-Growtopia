@@ -1,3 +1,17 @@
-# Abaikan folder hasil build dari analisis GitHub Linguist
-build/growbot_gui/xref-growbot_gui.html linguist-detectable=false
+# Abaikan file hasil dokumentasi dan build
+*.html linguist-detectable=false
+*.toc linguist-detectable=false
+*.log linguist-detectable=false
+*.aux linguist-detectable=false
+*.out linguist-detectable=false
 
+# Abaikan folder build
+build/** linguist-detectable=false
+dist/** linguist-detectable=false
+
+# Abaikan semua file selain Python
+*.bat linguist-detectable=false
+*.sh linguist-detectable=false
+*.exe linguist-detectable=false
+*.md linguist-detectable=false
+*.txt linguist-detectable=false
