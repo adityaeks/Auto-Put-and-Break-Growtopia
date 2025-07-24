@@ -1,0 +1,21 @@
+# =========================
+# GitHub Linguist settings
+# =========================
+
+# Abaikan folder hasil build dari analisis GitHub Linguist
+build/** linguist-detectable=false
+# dist/** linguist-detectable=false
+
+# Tentukan file utama sebagai Python
+growbot_gui.py linguist-language=Python
+autobuild.py linguist-language=Python
+
+# Jika ada file tambahan Python lainnya, bisa tambahkan di sini juga
+# contoh:
+# utils.py linguist-language=Python
+
+# Optional: abaikan file log
+build.log linguist-detectable=false
+
+# Abaikan file .spec agar tidak dianggap TeX atau lainnya
+growbot_gui.spec linguist-language=Python
