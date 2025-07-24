@@ -1,4 +1,4 @@
-# GrowBot GUI (Growtopia AutoFarm Recorder) - Masih Developing
+# GrowBot (Growtopia AutoFarm Recorder) - Masih Developing
 
 Aplikasi GUI Python modern untuk merekam dan menjalankan aksi mouse/keyboard otomatis (auto farm bot Growtopia) dengan tampilan dark mode berbasis CustomTkinter.
 
